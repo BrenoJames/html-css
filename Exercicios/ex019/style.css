@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+em HTML é ID =    em CSS é # ex h2#principal (só pode um elemento por pg)
+em HTML é CLASS = em CSS é . ex .principal  / CLASS vem antes do ID (pode vários elementos por pg)
+*/
+
+body {
+    background-color: rgb(198, 209, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+color: green;
+}
+h1#princial {
+    text-align: center;
+    background-color: rgb(165, 211, 57);
+    color: white;
+}
+
+h2 {
+color: rgb(24, 250, 24);
+}
+
+.basico {
+color: green;
+}
+
+.intermediario {
+color: rgb(34, 212, 34);
+}
+
+.avancado {
+color: rgb(90, 13, 13);
+}
+
+.destaque {
+    background-color: rgb(90, 59, 13);
+}
+
+
